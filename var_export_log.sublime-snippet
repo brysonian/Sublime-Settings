@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[ob_start();
+var_export($1);
+error_log(ob_get_clean());
+]]></content>
+    <scope>source.php</scope>
+    <tabTrigger>obx_</tabTrigger>
+    <description>var_export_log</description>
+</snippet>

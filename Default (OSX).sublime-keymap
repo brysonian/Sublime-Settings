@@ -1,0 +1,20 @@
+[
+  { "keys": ["super+x"], "command": "clipboard_manager_cut" },
+  { "keys": ["super+c"], "command": "clipboard_manager_copy" },
+  { "keys": ["super+v"], "command": "clipboard_manager_paste" },
+  { "keys": ["super+shift+v"], "command": "clipboard_manager_previous_and_paste" },
+
+  { "keys": ["super+alt+v"], "command": "clipboard_manager_next_and_paste" },
+  { "keys": ["super+ctrl+alt+v"], "command": "clipboard_manager_choose_and_paste" },
+  { "keys": ["super+shift+d"], "command": "insert_snippet", "args": {"name": "Packages/User/die_var_export.sublime-snippet"}, "context":
+        [{  "key": "selector", "operator": "equal", "operand": "source.php" }]
+   },
+  { "keys": ["super+escape"], "command": "as_above"},
+
+
+{ "keys": ["super+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/New Line Semicolon.sublime-macro"} },
+{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/New Line Array.sublime-macro"} },
+{ "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/EOL Semicolon.sublime-macro"} },
+{ "keys": ["super+shift+."], "command": "run_macro_file", "args": {"file": "Packages/User/Array Arrow.sublime-macro"} },
+{ "keys": ["super+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}}
+]

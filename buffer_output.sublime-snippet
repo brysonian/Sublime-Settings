@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[ob_start();
+$1
+${2:\$buffer = }ob_get_clean();
+]]></content>
+    <scope>source.php</scope>
+    <tabTrigger>ob_</tabTrigger>
+    <description>buffer_output</description>
+</snippet>

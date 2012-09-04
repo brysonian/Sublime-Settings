@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleUUID</key>
+	<string>467A1966-6227-11D9-BFB1-000D93589AF6</string>
+	<key>content</key>
+	<string>&lt;? foreach($1 as ${2:${3:\$k} =&gt; }\$${4:v}): ?&gt;
+$0
+&lt;? endforeach; ?&gt;</string>
+	<key>name</key>
+	<string>foreach: (fore:)</string>
+	<key>scope</key>
+	<string>source.php, text.html</string>
+	<key>tabTrigger</key>
+	<string>fore:</string>
+	<key>uuid</key>
+	<string>350B5373-9D23-410D-854B-1D21BE302DC2</string>
+</dict>
+</plist>

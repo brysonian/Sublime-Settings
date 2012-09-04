@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/User/Solaris.tmTheme",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"file_exclude_patterns":
+	[
+		"*.(tmproj|o|pyc|jpg|gif|png|swf|fla|tif|so|exe|ai|dll|class|jar)",
+		".DS_Store"
+	],
+	"font_size": 12.0,
+	"smart_indent": true,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	"word_wrap": false
+}
